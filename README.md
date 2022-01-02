@@ -1,5 +1,9 @@
 # Digital Clock
 
+## Design
+
+![Digital Clock Design](design/Digital%20Clock%20Html.png))
+
 ## Font Family
 
 [Google Fonts](https://fonts.google.com/share?selection.family=Roboto%20Mono:wght@100)
