@@ -1,6 +1,8 @@
 html {
     font-family: 'Roboto', serif;
     width: 100%;
+    background-image: linear-gradient(to right, #4D9DE0,#E15554);
+    color: white;
 }
 
 header {
@@ -24,7 +26,6 @@ header {
     width: 50%;
     text-align: center;
     flex: 1;
-    background-color: moccasin;
 }
 
 .twelve_hours_format {
@@ -36,5 +37,16 @@ header {
     width: 50%;
     text-align: center;
     flex: 1;
-    background-color: moccasin;
+}
+
+footer {
+    width: 99%;
+    text-align: right;
+}
+
+a:link, a:visited,  a:hover, a:active{
+    font-size: 48px;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
 }
