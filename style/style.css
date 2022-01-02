@@ -17,12 +17,18 @@ header {
     font-size: 62px;
 }
 
+.inline_style_double_dot {
+    padding: 25px;
+    margin: 25px;
+    font-size: 62px;
+}
+
 .twenty_four_hours_format {
     justify-content: center;
     display: flex;
 }
 
-.twenty_four_hours_format>div {
+.twenty_four_hours_format > div {
     width: 50%;
     text-align: center;
     flex: 1;
@@ -33,10 +39,19 @@ header {
     display: flex;
 }
 
-.twelve_hours_format>div {
+.twelve_hours_format > div {
     width: 50%;
     text-align: center;
     flex: 1;
+}
+
+.clock_main_title{
+    font-size: 78px;
+}
+
+.clock_title {
+    width: auto;
+    padding-left: 27px;
 }
 
 footer {
@@ -44,7 +59,7 @@ footer {
     text-align: right;
 }
 
-a:link, a:visited,  a:hover, a:active{
+a:link, a:visited,  a:hover, a:active {
     font-size: 48px;
     color: white;
     padding: 5px;
