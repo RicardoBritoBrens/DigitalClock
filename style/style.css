@@ -1,0 +1,40 @@
+html {
+    font-family: 'Roboto', serif;
+    width: 100%;
+}
+
+header {
+    text-align: center;
+}
+
+.inline_style {
+    padding: 25px;
+    margin: 25px;
+    border: solid 1px #ccc;
+    border-radius: 16px;
+    font-size: 62px;
+}
+
+.twenty_four_hours_format {
+    justify-content: center;
+    display: flex;
+}
+
+.twenty_four_hours_format>div {
+    width: 50%;
+    text-align: center;
+    flex: 1;
+    background-color: moccasin;
+}
+
+.twelve_hours_format {
+    justify-content: center;
+    display: flex;
+}
+
+.twelve_hours_format>div {
+    width: 50%;
+    text-align: center;
+    flex: 1;
+    background-color: moccasin;
+}
