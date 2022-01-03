@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Digital Clock</title>
     <link rel="stylesheet" href="/style/style.css">
-    <script type="text/javascript" src="/javascript/custom.js"></script>
+    <script type="text/javascript" src="/javascript/digitalClockEngine.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
@@ -21,27 +21,23 @@
         <h1 class="clock_main_title">Digital Clock</h1>
     </header>
 
-    <div>
-        <div class="clock_title">
-            <h4>24 HR FORMAT</h4>
-        </div>
-        <div class="twenty_four_hours_format inline_style">
-            <div class="inline_style">07</div>:
-            <div class="inline_style">12</div>:
-            <div class="inline_style">13</div>:
-            <div class="inline_style">AM</div>
-        </div>
+    <div class="clock_title">
+        <h4>12 HR FORMAT</h4>
     </div>
 
-    <div>
-        <div class="clock_title">
-            <h4>12 HR FORMAT</h4>
-        </div>
-        <div class="twelve_hours_format inline_style">
-            <div class="inline_style">18</div>:
-            <div class="inline_style">16</div>:
-            <div class="inline_style">04</div>
-        </div>
+    <div id="twelve_hour_clock" class="clock_text_format" >
+        <p>07 : 12 : 13 : AM</p>
+        
+    </div>
+
+    <br>
+
+    <div class="clock_title">
+        <h4>24 HR FORMAT</h4>
+    </div>
+
+    <div id="twenty_four_hour_clock" class="clock_text_format">
+        <p>18 : 16 : 04</p>
     </div>
 
 </body>
@@ -51,4 +47,5 @@
     <a href="https://twitter.com/BritoBrens"><i class="fa fa-twitter-square"></i></a>
     <a href="https://www.linkedin.com/in/ricardobritobrens/"><i class="fa fa-linkedin"></i></a>
 </footer>
+
 </html>
