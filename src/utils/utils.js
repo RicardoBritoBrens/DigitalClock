@@ -95,7 +95,6 @@ function getTwentyFourHourFormattedTime() {
 
 function getAmOrPm(hours) {
 
-    debugger;
 
     if(isNaN(hours))
     {
