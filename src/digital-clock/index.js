@@ -1,5 +1,3 @@
-
-import { getLocation,showName } from '../location/native_browser_api.js'
 import { getTwelveHourFormattedTime, getTwentyFourHourFormattedTime } from '../utils/utils.js'
 
 window.addEventListener('DOMContentLoaded', (e) => {
@@ -10,7 +8,7 @@ window.addEventListener('DOMContentLoaded', (e) => {
    var twentyFourHoursClock = document.getElementById("twenty_four_hour_clock");
    var twentyFourHourChildText = twentyFourHoursClock.getElementsByTagName('p').item(0);
 
-   setInterval(() => {
+   window.standardTimeInterval = setInterval(() => {
 
       var time = new Date();
       var hours = time.getHours();
@@ -22,4 +20,3 @@ window.addEventListener('DOMContentLoaded', (e) => {
    }, 1000);
 
 });
-
