@@ -2,8 +2,11 @@
 
 ## Design
 
-![Digital Clock Design](design/digital_clock_html.png.png)
+![Digital Clock Design](design/digital_clock_html.png)
 
+## Production
+
+![Digital Clock Design](design/DigitalClock.gif)
 ## Font Family
 
 [Google Fonts](https://fonts.google.com/share?selection.family=Roboto%20Mono:wght@100)
