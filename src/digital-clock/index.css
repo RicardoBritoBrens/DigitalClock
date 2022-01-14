@@ -1,0 +1,57 @@
+html {
+    font-family: 'Roboto', serif;
+    width: 100%;
+    background-image: linear-gradient(to right, #4D9DE0,#E15554);
+    color: white;
+}
+
+header {
+    text-align: center;
+}
+
+.clock_main_title {
+    font-size: 40px;
+}
+
+.clock_text_format {
+    border: solid 1px #ccc;
+    border-radius: 16px;
+    font-size: 60px;
+    justify-content: center;
+    display: flex;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.clock_title {
+    width: auto;
+    padding-left: 25%;
+}
+
+footer {
+    width: 99%;
+    text-align: right;
+}
+
+a:link, a:visited, a:hover, a:active {
+    font-size: 38px;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+
+#allow_location_permission{
+    width: auto;
+    padding-left: 25%;
+    display: flex;
+}
+
+#allow_location_permission > button{
+    border-radius: 25px;
+    height: 25px;
+    color: black;
+    width: auto;
+    background-color: white;
+    margin-left: 10px;
+    margin-top: 14px;
+}

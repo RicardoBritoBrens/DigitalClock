@@ -2,7 +2,7 @@
 
 ## Design
 
-![Digital Clock Design](design/Digital%20Clock%20Html.png)
+![Digital Clock Design](design/digital_clock_html.png.png)
 
 ## Font Family
 

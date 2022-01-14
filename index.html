@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-
+ 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Easy Digital Clock.">
     <title>Digital Clock</title>
-    <link rel="stylesheet" href="/style/style.css">
-    <script type="text/javascript" src="/javascript/digitalClockEngine.js"></script>
+    <link rel="stylesheet" href="/src/digital-clock/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
@@ -22,7 +22,7 @@
     </header>
 
     <div class="clock_title">
-        <h4>12 HR FORMAT</h4>
+        <h2>12 HR FORMAT</h2>
     </div>
 
     <div id="twelve_hour_clock" class="clock_text_format" >
@@ -33,13 +33,21 @@
     <br>
 
     <div class="clock_title">
-        <h4>24 HR FORMAT</h4>
+        <h2>24 HR FORMAT</h2>
     </div>
 
     <div id="twenty_four_hour_clock" class="clock_text_format">
         <p>18 : 16 : 04</p>
     </div>
 
+    <div id="allow_location_permission">
+        <p>Would you like to know your current location time?</p>
+        <button id="#getLocationBtn" onclick="getLocationApiBrowserWrap()" type="button">Yes</button>
+    </div>
+
+    <script type="module" src="/src/digital-clock/index.js"></script>
+    <script type="module" src="/src/utils/utils.js"></script>
+    <script type="module" src='/src/location/native_browser_api.js'></script> 
 </body>
 <footer>
     <p>Develop by <i>Ricardo Brito Brens</i></p>
@@ -47,5 +55,4 @@
     <a href="https://twitter.com/BritoBrens"><i class="fa fa-twitter-square"></i></a>
     <a href="https://www.linkedin.com/in/ricardobritobrens/"><i class="fa fa-linkedin"></i></a>
 </footer>
-
 </html>
